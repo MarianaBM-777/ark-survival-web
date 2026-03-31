@@ -1,0 +1,82 @@
+.menudenavegacion{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 220px;
+    height: 100px;
+    background: linear-gradient(rgba(104, 255, 222, 0.451), rgba(247, 247, 119, 0.678));
+    overflow: hidden;
+}
+.HOME img{ 
+    width: 100px; /* Ajusta el tamaño si es necesario */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.logopersonaje{
+    width: 100px; /* Ajusta el tamaño si es necesario */
+    height: 100px;
+    object-fit: cover;
+}
+body{
+    background-image: url(../../IMAGENES/Fondo_ASA.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    gap: 20px;
+
+}
+
+h1{
+    font-size: 40px;
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.63), rgba(0, 0, 255, 0.562));
+    color: blanchedalmond;
+    text-align: center;
+}
+p{
+    font-family:sans-serif;   
+}
+.parrafo1{
+    background-color: rgba(255, 228, 196, 0.63);
+    text-align: center;
+}
+.parrafo2{
+    background-color: rgba(255, 228, 196, 0.63);
+    text-align: center;
+}
+.parrafo3{
+    background-color: rgba(255, 228, 196, 0.63);
+    text-align: center;
+}
+.bobcont{
+    color: white;
+    text-align: center;
+}
+.victoriacont{
+    color: white;
+    text-align: center;
+}
+.alisecont{
+    color: white;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.personajeALASIE img{
+    height: 500px;
+    width: 550px ;
+}
+.container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 30px; /* Espacio entre los elementos */
+    align-items: center; /* Alinea los elementos verticalmente */
+}
+
+.container div {
+    text-align: center; /* Centra el texto dentro de cada div */
+}

@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(IMAGENES/Fondo_ASA.webp);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+  
+}
+h1{
+    font-size: 40px;
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.63), rgba(0, 0, 255, 0.562));
+    color: blanchedalmond;
+}
+p{
+    font-family: sans-serif;
+}
+
+div{
+    background-color: rgba(255, 228, 196, 0.61);
+}
+
+img {
+    align-content: center;
+    margin: auto;
+    width: 470 px;
+    height: 400px;
+}
+.menudenavegacion{
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(rgba(104, 255, 222, 0.451), rgba(247, 247, 119, 0.678));
+}
